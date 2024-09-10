@@ -11,8 +11,8 @@ Pod::Spec.new do |spec|
 
   spec.author                   = { "HirenBharodiya" => "hiren.bharodia@gmail.com" }
   
-  spec.source                   = { :git => "https://github.com/dhruv230298/SampleDemo.git", :tag => s.version.to_s }
-  s.ios.deployment_target       = '12.0'
+  spec.source                   = { :git => "https://github.com/dhruv230298/SampleDemo.git", :tag => spec.version.to_s }
+  spec.ios.deployment_target    = "12.0"
 
   # spec.source_files             = "Classes/**/*.{h,m}"
   spec.source_files             = "SDK/TestFrameworkLibrary.xcframework/ios-arm64/TestFrameworkLibrary.framework/Headers/*.{h}"
