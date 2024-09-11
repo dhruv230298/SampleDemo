@@ -8,7 +8,8 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers public class OperationsHandler {
+@objc @_inheritsConvenienceInitializers public class OperationsHandler : ObjectiveC.NSObject {
+  @objc override dynamic public init()
   public func showMessage()
   public func add(a: Swift.Int, b: Swift.Int) -> Swift.Int
   public func sub(a: Swift.Int, b: Swift.Int) -> Swift.Int
